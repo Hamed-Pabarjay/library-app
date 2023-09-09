@@ -1,3 +1,8 @@
+@font-face {
+  font-family: BZar;
+  src: url(BZar.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,115 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: BZar;
+  background-color: #d9e1ec;
+  direction: rtl;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-family: BZar;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.bookForm {
+  background-color: #a7cdad;
+  font-family: BZar;
+  width: 600px;
+  direction: rtl;
+  margin: 30px auto 20px;
+  border-radius: 5px;
+  padding: 0;
+}
+
+
+.bookForm h1 {
+  font-size: 25pt;
+  font-family: BZar;
+  color: rgba(17, 16, 16, 0.473);
+  background-color: #91cf81af;
+  direction: rtl;
+  text-align: center;
+  margin: 0%;
+  border-radius: 5px;
+  height: 60px;
+}
+
+
+.bookForm h2 {
+  font-size: 1.4em;
+  font-family: BZar;
+  color: rgba(17, 16, 16, 0.473);
+  background-color: #91cf81af;
+  direction: rtl;
+  text-align: center;
+  margin: 0%;
+  height: 60px;
+}
+
+.theDiv {
+  margin-top: 15px;
+}
+
+.theBooks {
+  /* font-size: 40px; */
+  background-color: #72b1a2;
+  margin-top: 7px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 7px;
+  padding: 0 7px;
+  list-style-type: none;
+}
+
+.theBooks:hover {
+  text-decoration: line-through;
+  background-color: #838686;
+  cursor: pointer;
+}
+
+
+.firstLi {
+  font-Weight: bold;
+  font-Size: 20px;
+  margin-Bottom: 0;
+  padding-right: 2px;
+}
+
+.secondLi {
+  margin-top: 0;
+  position: relative;
+  padding-right: 2px;
+}
+
+.theForm {
+  display: block;
+  margin: 10px -18px auto auto;
+}
+
+.ulStyle {
+  list-style: none;
+}
+
+.theForms {
+  background-color: #bbe5e4;
+  height: 30px;
+  font-family: bZar;
+  font-size: 15px;
+  width: 567px;
+  margin-top: 9px;
+  border: none;
+}
+
+.theSubmitButton {
+  border-radius: 4px;
+  font-family: bZar;
+  font-size: 15px;
+  width: 78px;
+  text-align: center;
+  /* display: block; */
+  margin: 25px 230px 70px;
+  border: none;
+  height: 30px;
 }
