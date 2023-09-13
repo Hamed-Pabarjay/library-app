@@ -7,7 +7,7 @@ const BookForm = () => {
 
     const [books, setBooks] = useState([
         { title: 'کوری', author: 'ساراماگو', id: 1 },
-        { title: 'صد سال تنهایی ', author: 'مکارم ', id: 2 }
+        { title: 'تفسیر نمونه', author: 'مکارم ', id: 2 }
     ]);
 
     const [title, setTitle] = useState('')
